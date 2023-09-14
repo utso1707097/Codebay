@@ -1,0 +1,47 @@
+# Django project settings
+*.pyc
+*.pyo
+__pycache__/
+*.db.sqlite3
+
+# Static and media files (assuming you use Django's default settings)
+/static/
+/media/
+
+# Secret key (keep this secure!)
+secret_key.txt
+
+# Local development settings
+*.env
+*.log
+db.sqlite3
+
+# Virtual environment
+myenv/
+.env
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled Python files
+__pycache__/
+
+# Temporary files
+*.swp
+*~
+*.bak
+
+# macOS metadata files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Python bytecode caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
